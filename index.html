@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دليل الشبكات</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            direction: rtl; /* إضافة هذه السطر لتحديد الاتجاه من اليمين لليسار */
+            text-align: right; /* محاذاة النص إلى اليمين */
+        }
+
+        /* شريط التنقل العلوي */
+        header {
+            background-color: #2c3e50;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #ecf0f1;
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header nav {
+            margin-top: 10px;
+        }
+
+        header nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 15px;
+            border-radius: 5px;
+            background-color: #34495e;
+            font-size: 1.1rem;
+        }
+
+        header nav a:hover {
+            background-color: #16a085;
+        }
+
+        /* محتوى الصفحة */
+        .container {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #2c3e50;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+
+        .section h3 {
+            font-size: 1.5rem;
+            color: #2c3e50;
+        }
+
+        /* تخصيص للصورة في مقدمة الشبكات */
+        .intro-image {
+            width: 30%;
+            max-width: 500px;
+            margin: 20px 0;
+            display: block;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background-color: #2c3e50;
+            padding: 20px;
+            color: #ecf0f1;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>دليل الشبكات</h1>
+        <nav>
+            <a href="#home">الرئيسية</a>
+            <a href="#network-types">أنواع الشبكات</a>
+            <a href="#network-components">مكونات الشبكة</a>
+            <a href="#protocols">البروتوكولات</a>
+            <a href="#network-security">الأمان الشبكي</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- الصفحة الرئيسية -->
+        <div id="home" class="section">
+            <h2>مقدمة عن الشبكات</h2>
+            <!-- إضافة صورة في المقدمة -->
+            <img src="jj1.jpg" alt="شبكة الإنترنت" class="intro-image">
+            <p>
+                الشبكات هي مجموعة من الأجهزة المتصلة ببعضها البعض بهدف تبادل البيانات والمعلومات. تعتبر الشبكات أساسًا لتوصيل مختلف الأجهزة مثل الحواسيب والطابعات والهواتف الذكية، مما يسهل الاتصال ومشاركة الموارد. هناك أنواع مختلفة من الشبكات، مثل الشبكات المحلية والشبكات الواسعة.
+            </p>
+        </div>
+
+        <!-- باقي المحتوى كما هو -->
+        <div id="network-types" class="section">
+            <h2>أنواع الشبكات</h2>
+            <h3>الشبكة المحلية (LAN)</h3>
+            <p>
+                هي شبكة تربط الأجهزة ضمن مساحة محدودة مثل منزل أو مكتب. تتيح للمستخدمين مشاركة الملفات والطابعات والموارد الأخرى.
+            </p>
+            <h3>الشبكة الواسعة (WAN)</h3>
+            <p>
+                هي شبكة تغطي منطقة جغرافية واسعة مثل المدن أو الدول. الإنترنت هو أكبر مثال على شبكة WAN.
+            </p>
+            <h3>الشبكة الشخصية (PAN)</h3>
+            <p>
+                هي شبكة صغيرة تشمل الأجهزة الشخصية مثل الهواتف الذكية والأجهزة اللوحية، التي يتم توصيلها بشكل فردي.
+            </p>
+        </div>
+
+        <div id="network-components" class="section">
+            <h2>مكونات الشبكة</h2>
+            <h3>الأجهزة الطرفية</h3>
+            <p>
+                تشمل الأجهزة مثل الحواسيب والطابعات التي تتصل بالشبكة وتشارك البيانات.
+            </p>
+            <h3>الموجهات (Routers)</h3>
+            <p>
+                هي أجهزة تقوم بتوجيه البيانات بين شبكات مختلفة، مثل بين جهاز الكمبيوتر والإنترنت.
+            </p>
+            <h3>المحولات (Switches)</h3>
+            <p>
+                تعمل على توصيل الأجهزة في نفس الشبكة المحلية وتوجيه البيانات بين هذه الأجهزة.
+            </p>
+        </div>
+
+        <div id="protocols" class="section">
+            <h2>البروتوكولات في الشبكات</h2>
+            <h3>TCP/IP</h3>
+            <p>
+                بروتوكول TCP/IP هو مجموعة من البروتوكولات التي تشكل الأساس للإنترنت. يتحكم هذا البروتوكول في كيفية نقل البيانات عبر الشبكة.
+            </p>
+            <h3>HTTP</h3>
+            <p>
+                بروتوكول HTTP هو البروتوكول المسؤول عن تحميل صفحات الويب عبر الإنترنت.
+            </p>
+            <h3>FTP</h3>
+            <p>
+                بروتوكول FTP يُستخدم لنقل الملفات بين الحواسيب عبر الشبكة.
+            </p>
+        </div>
+
+        <div id="network-security" class="section">
+            <h2>الأمان الشبكي</h2>
+            <p>
+                الأمان الشبكي يشمل مجموعة من السياسات والتقنيات التي تهدف إلى حماية الشبكات من الهجمات والاختراقات. من أهم تقنيات الأمان هي:
+            </p>
+            <ul>
+                <li>جدران الحماية (Firewalls)</li>
+                <li>التشفير</li>
+                <li>البروتوكولات الآمنة مثل HTTPS</li>
+                <li>التحقق من الهوية (Authentication)</li>
+                <h1> كان معكم الطالب : حسن علاء شاكر</h1>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2024 جميع الحقوق محفوظة - دليل الشبكات</p>
+    </footer>
+
+</body>
+</html>
